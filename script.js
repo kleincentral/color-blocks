@@ -1,6 +1,6 @@
 console.log('🟥 🟦 🟩 🟨');
 
-function buttonclick(id, color) {
+function buttonclick(color) {
     // let clickCreate = document.getElementById(id);
     let clickCreate = document.getElementById('blocks');
     console.log(clickCreate)
