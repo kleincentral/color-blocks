@@ -13,10 +13,10 @@
 <body>
   <!-- This <header> is for Part Two of the assignment! -->
   <header id="block-counts">
-    <p>Red Count: <span id="red-count">0</span></p>
-    <p>Blue Count: <span id="blue-count">0</span></p>
-    <p>Green Count: <span id="green-count">0</span></p>
-    <p>Yellow Count: <span id="yellow-count">0</span></p>
+    <p>Red Count: <span id="red-count">1</span></p>
+    <p>Blue Count: <span id="blue-count">1</span></p>
+    <p>Green Count: <span id="green-count">1</span></p>
+    <p>Yellow Count: <span id="yellow-count">1</span></p>
   </header>
   <main>
     <section id="buttons">
@@ -26,6 +26,11 @@
       <button onclick="buttonclick(`yellow`)" id="yellow-btn">Yellow</button>
     </section>
     <section id="blocks">
+      <div onclick="deleteClick(event, 'red')" class="block red-fill"></div>
+      <div onclick="deleteClick(event, 'blue')" class="block blue-fill"></div>
+      <div onclick="deleteClick(event, 'green')" class="block green-fill"></div>
+      <div onclick="deleteClick(event, 'yellow')" class="block yellow-fill"></div>
+
       
     </section>
   </main>
